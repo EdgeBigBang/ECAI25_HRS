@@ -1,7 +1,7 @@
 for data_file in ECW09.csv; do
   for target in mps; do
     for len in 24; do
-      task_name="${data_file%%.*}_${len}_mul"
+      task_name="${data_file%%.*}_${len}"
       echo "Running diff with task_name=$task_name" | tee -a exp_result.txt
       python -u run.py \
         --dir_path "./data/" \

@@ -131,7 +131,7 @@ class Model(nn.Module):
         )
 
         # Numerical Feature Extraction
-        self.seq_embedding = NumericalFeatureExtraction(args.n_feature, self.hidden_dim, args.freq, args.dropout)
+        self.numerical_extraction = NumericalFeatureExtraction(args.n_feature, self.hidden_dim, args.freq, args.dropout)
 
         self.feature_concat_len = self.visual_feature_len + self.num_feature_len
 
@@ -170,7 +170,7 @@ class Model(nn.Module):
         f_v = self.visual_extraction(x_img)
         
         # Numerical Feature Extraction
-        f_n = self.seq_embedding(x_num, x_num_mark)
+        f_n = self.numerical_extraction(x_num, x_num_mark)
 
         # Feature Fusion
         f_f = self.feature_fusion(f_n, f_v)

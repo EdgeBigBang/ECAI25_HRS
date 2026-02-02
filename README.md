@@ -49,11 +49,16 @@ The project provides training scripts for different datasets and sequence length
 If you use HRS in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{hrs2025,
-  title={HRS: Hybrid Representation Framework with Scheduling Awareness for Time Series Forecasting in Crowdsourced Cloud-Edge Platforms},
-  author={Tiancheng Zhang, Cheng Zhang, Shuren Liu, Xiaofei Wang, Shaoyuan Huang, Wenyu Wang},
-  booktitle={Proceedings of the European Conference on Artificial Intelligence},
-  year={2025}
+@inproceedings{Zhang2025HRS,
+  title     = {HRS: Hybrid Representation Framework with Scheduling Awareness for Time Series Forecasting in Crowdsourced Cloud-Edge Platforms},
+  author    = {Zhang, Tiancheng and Zhang, Cheng and Liu, Shuren and Wang, Xiaofei and Huang, Shaoyuan and Wang, Wenyu},
+  booktitle = {Proceedings of the 27th European Conference on Artificial Intelligence (ECAI 2025)},
+  series    = {Frontiers in Artificial Intelligence and Applications},
+  volume    = {413},
+  pages     = {1921--1928},
+  year      = {2025},
+  publisher = {IOS Press},
+  doi       = {10.3233/FAIA251026}
 }
 ```
 
@@ -76,6 +81,7 @@ If you have any questions, please contact us through:
 ---
 
 ⭐ If this project is helpful to you, please give us a star!
+
 
 
 
